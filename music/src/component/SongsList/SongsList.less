@@ -1,0 +1,54 @@
+.song-list{
+  width: 100%;
+  margin: auto;
+
+}
+.song-item{
+  width: 92%;
+  margin: 3rem  auto;
+  color: #666;
+display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+
+}
+.current-played{
+  color: #ff82ab;
+}
+.item-left{
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.item-name{
+  margin-bottom: 1.5rem;
+}
+.song-item:active,.song-item:hover .item-left{
+  color: #ff82ab;
+  transition:all .1s ease-in;
+}
+.item-right{
+  width: 20%;
+  display: flex;
+  justify-content: space-between;
+  color: #666666;
+}
+.item-collect{
+
+}
+.item-collect,.item-add{
+display: inline-block;
+}
+.song-item:hover .item-left:after,.current-played .item-left:after{
+  display: inline-block;
+  content: '';
+  height:3.12rem ;
+  width:0.25rem ;
+  background: #ff82ab;
+  margin-top: -1rem;
+position: absolute;
+  left: 0;
+
+}

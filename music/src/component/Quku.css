@@ -1,0 +1,56 @@
+#quku{
+    /*margin-top: 3.7rem;*/
+    padding-top: 3.7rem;
+    margin-bottom: 2rem ;
+}
+.banner{
+    width: 92%;
+    margin: 0 auto;
+margin-top:0.9rem ;
+
+}
+
+.banner .banner-img{
+    width: 100%;
+    vertical-align: top;
+}
+.banner .slider-list{
+    height: 9.57rem!important;
+}
+.recommond{
+    width: 92%;
+    height:11.25rem;
+
+    margin: auto;
+
+}
+.recommond-item{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.recommond-item a{
+    display: inline-block;
+    height: 6.25rem;
+    width: 6.25rem;
+   padding-right: 0.3rem;
+    text-decoration: none;
+    text-align: center;
+}
+.recommond-img{
+    width: 100%;
+    height: 100%;
+    margin-bottom: 0.9rem;
+}
+.recommond-name{
+    font-size: 0.75rem;
+    color: #666;
+}
+.songList{
+    margin-top: 1.25rem;
+margin-bottom: 7rem;
+}
+
+
